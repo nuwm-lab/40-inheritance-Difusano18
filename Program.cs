@@ -13,6 +13,7 @@ namespace LabWork
             vector = new double[4];
         }
 
+
         // Метод для задання елементів вектора
         public void SetElements(double[] elements)
         {
