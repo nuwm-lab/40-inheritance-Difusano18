@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VectorAndMatrix
+namespace LabWork
 {
     // Клас для одновимірного вектора розмірності 4
     public class Vector4D
@@ -12,6 +12,7 @@ namespace VectorAndMatrix
         {
             vector = new double[4];
         }
+
 
         // Метод для задання елементів вектора
         public void SetElements(double[] elements)
@@ -132,4 +133,4 @@ namespace VectorAndMatrix
             Console.WriteLine("Максимальний елемент матриці: " + matrix.MaxElement());
         }
     }
-}
+}   
